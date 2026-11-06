@@ -22,6 +22,13 @@ def health():
         version="1.0"
     )
 
+@app.route("/about")
+def about():
+    return """
+    <h1>DevOps Demo Application</h1>
+    <p>This application is being used to learn DevOps.</p>
+    <p>Tools: Git, GitHub, Jenkins, Docker, Kubernetes and AWS</p>
+    """
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
