@@ -1,0 +1,8 @@
+.git
+.gitignore
+venv
+_pyache_
+*.pyc
+*.log
+.env
+README.md
